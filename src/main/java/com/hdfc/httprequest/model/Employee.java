@@ -3,11 +3,11 @@ package com.hdfc.httprequest.model;
 public class Employee {
 
 	private String name;
-	private int id;
+	private Integer id;
 	private double salary;
 	private String address;
 
-	public Employee(String name, int id, double salary, String address) {
+	public Employee(String name, Integer id, double salary, String address) {
 
 		this.name = name;
 		this.id = id;
@@ -26,11 +26,11 @@ public class Employee {
 		this.name = name;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
